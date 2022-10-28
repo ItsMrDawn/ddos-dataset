@@ -337,7 +337,7 @@ int verificar_arquivos() {
             cortar_colunas_csv();
         }
 
-        fclose(arqcsv);
+        //fclose(arqcsv);
         
         //caso o arquivo binario não tenha sido criado ainda, converter de um arquivo DADOSCSV
         if (converter_para_bin()) {
